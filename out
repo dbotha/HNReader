@@ -1,0 +1,5 @@
+commit c951b1f8acee90d7621e4f181d54328e6ff71d8f
+Author: deon <deon@li145-170.members.linode.com>
+Date:   Tue Apr 5 11:19:20 2011 -0400
+
+    Initial commit of Hacker News reader. Currently the application will parse front page news stories from news.ycombinator.com. Early support for parsing comments has been implemented however I have yet to provide a means to display these parsed comments.

@@ -1,0 +1,1158 @@
+THackerNewsReader2
+v7
+r0
+t323693629.717902
+cCheck dependencies
+cCpResource build/Debug-iphoneos/HackerNewsReader2.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos/HackerNewsReader2.app/Info.plist HackerNewsReader2-Info.plist
+cCompileXIB /Users/deon/Documents/HackerNewsReader2/MainWindow.xib
+cCopyPNGFile /Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos/HackerNewsReader2.app/grayArrow.png Resources/grayArrow.png
+cProcessPCH /var/folders/2s/2s7PmkMdHzuunr-Np2Q+G++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HackerNewsReader2_Prefix-cpmeyrtceehiwudaavwfhvmvnqpa/HackerNewsReader2_Prefix.pch.gch HackerNewsReader2_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/2s/2s7PmkMdHzuunr-Np2Q+G++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HackerNewsReader2_Prefix-hdfchgsmjjlvqcagqremhbmhyydu/HackerNewsReader2_Prefix.pch.gch HackerNewsReader2_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv6/main.o /Users/deon/Documents/HackerNewsReader2/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv6/HackerNewsReader2AppDelegate.o /Users/deon/Documents/HackerNewsReader2/Classes/HackerNewsReader2AppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv6/Comment.o /Users/deon/Documents/HackerNewsReader2/Classes/Comment.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv6/EGORefreshTableHeaderView.o /Users/deon/Documents/HackerNewsReader2/Classes/EGORefreshTableHeaderView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv6/FetchCommentsRequest.o /Users/deon/Documents/HackerNewsReader2/Classes/FetchCommentsRequest.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv6/FetchStoriesRequest.o /Users/deon/Documents/HackerNewsReader2/Classes/FetchStoriesRequest.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv6/HackerNews.o /Users/deon/Documents/HackerNewsReader2/Classes/HackerNews.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv6/LoadNextPageTableFooterView.o /Users/deon/Documents/HackerNewsReader2/Classes/LoadNextPageTableFooterView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv6/RegexKitLite.o /Users/deon/Documents/HackerNewsReader2/Classes/RegexKitLite.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv6/Story.o /Users/deon/Documents/HackerNewsReader2/Classes/Story.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv6/StoryCell.o /Users/deon/Documents/HackerNewsReader2/Classes/StoryCell.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv6/RootViewController.o /Users/deon/Documents/HackerNewsReader2/RootViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv6/StoriesViewController.o /Users/deon/Documents/HackerNewsReader2/StoriesViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv7/main.o /Users/deon/Documents/HackerNewsReader2/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv7/HackerNewsReader2AppDelegate.o /Users/deon/Documents/HackerNewsReader2/Classes/HackerNewsReader2AppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv7/Comment.o /Users/deon/Documents/HackerNewsReader2/Classes/Comment.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv7/EGORefreshTableHeaderView.o /Users/deon/Documents/HackerNewsReader2/Classes/EGORefreshTableHeaderView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv7/FetchCommentsRequest.o /Users/deon/Documents/HackerNewsReader2/Classes/FetchCommentsRequest.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv7/FetchStoriesRequest.o /Users/deon/Documents/HackerNewsReader2/Classes/FetchStoriesRequest.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv7/HackerNews.o /Users/deon/Documents/HackerNewsReader2/Classes/HackerNews.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv7/LoadNextPageTableFooterView.o /Users/deon/Documents/HackerNewsReader2/Classes/LoadNextPageTableFooterView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv7/RegexKitLite.o /Users/deon/Documents/HackerNewsReader2/Classes/RegexKitLite.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv6/HackerNewsReader2 normal armv6
+cCompileC build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv7/Story.o /Users/deon/Documents/HackerNewsReader2/Classes/Story.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv7/StoryCell.o /Users/deon/Documents/HackerNewsReader2/Classes/StoryCell.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv7/RootViewController.o /Users/deon/Documents/HackerNewsReader2/RootViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv7/StoriesViewController.o /Users/deon/Documents/HackerNewsReader2/StoriesViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv7/HackerNewsReader2 normal armv7
+cCreateUniversalBinary /Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos/HackerNewsReader2.app/HackerNewsReader2 normal "armv6 armv7"
+cGenerateDSYMFile /Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos/HackerNewsReader2.app.dSYM /Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos/HackerNewsReader2.app/HackerNewsReader2
+cProcessProductPackaging "/Users/deon/Library/MobileDevice/Provisioning Profiles/62A5273D-E521-44D3-95F3-1C7DB746EC3A.mobileprovision" /Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos/HackerNewsReader2.app/embedded.mobileprovision
+cTouch /Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos/HackerNewsReader2.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2.xcent
+cCodeSign /Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos/HackerNewsReader2.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk
+c000000004D7401890000000000000110
+t1299448201
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist
+c000000004D4F6A4700000000000001A7
+t1297050183
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+c000000004D4F6A4700000000000001E5
+t1297050183
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFArray.h
+c000000004D54CFAE0000000000007AC8
+t1297403822
+s31432
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFBase.h
+c000000004D54CFAE00000000000046C9
+t1297403822
+s18121
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFString.h
+c000000004D54CFAF000000000000B7CA
+t1297403823
+s47050
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D54D18C00000000003532A0
+t1297404300
+s3486368
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D54D1F500000000003E22F0
+t1297404405
+s4072176
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D54D1DD0000000000001466
+t1297404381
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSArray.h
+c000000004D54D1DD0000000000001B27
+t1297404381
+s6951
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSDictionary.h
+c000000004D54D1DD0000000000000E3B
+t1297404381
+s3643
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSError.h
+c000000004D54D1DD0000000000001DE5
+t1297404381
+s7653
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSException.h
+c000000004D54D1DD0000000000002033
+t1297404381
+s8243
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSNotification.h
+c000000004D54D1DD000000000000059D
+t1297404381
+s1437
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObjCRuntime.h
+c000000004D54D1DD0000000000002E87
+t1297404381
+s11911
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRange.h
+c000000004D54D1DD000000000000049D
+t1297404381
+s1181
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRunLoop.h
+c000000004D54D1DD0000000000000915
+t1297404381
+s2325
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h
+c000000004D54D1DD0000000000006506
+t1297404381
+s25862
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004D54D49500000000000000C4
+t1297405077
+s196
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004D54D608000000000026CB10
+t1297405448
+s2542352
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D5A28AB0000000000000AA1
+t1297754283
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D5A292A0000000000CA2AE0
+t1297754410
+s13249248
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/AvailabilityMacros.h
+c000000004D4F74C20000000000007A5E
+t1297052866
+s31326
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/TargetConditionals.h
+c000000004D4F74C200000000000031E9
+t1297052866
+s12777
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/dlfcn.h
+c000000004D54C5010000000000000B1C
+t1297401089
+s2844
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/libkern/OSAtomic.h
+c000000004D4F6E9100000000000077C3
+t1297051281
+s30659
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/mach-o/loader.h
+c000000004D54C955000000000000F924
+t1297402197
+s63780
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/objc/runtime.h
+c000000004D54CADF00000000000063AF
+t1297402591
+s25519
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/stdio.h
+c000000004D4F6E910000000000004763
+t1297051281
+s18275
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/stdlib.h
+c000000004D4F6E9100000000000030A7
+t1297051281
+s12455
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/string.h
+c000000004D4F6E910000000000001A3A
+t1297051281
+s6714
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/sys/types.h
+c000000004D54CB2A0000000000002905
+t1297402666
+s10501
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/lib/gcc/arm-apple-darwin10/4.2.1/include/limits.h
+c000000004D09AC6C0000000000000C7E
+t1292479596
+s3198
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/lib/gcc/arm-apple-darwin10/4.2.1/include/stdarg.h
+c000000004D09AC6C00000000000010DD
+t1292479596
+s4317
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/lib/gcc/arm-apple-darwin10/4.2.1/include/stdint.h
+c000000004D09AD56000000000000190C
+t1292479830
+s6412
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/lib/libicucore.A.dylib
+c000000004D54CF550000000000325470
+t1297403733
+s3298416
+
+N/Users/deon/Documents/HackerNewsReader2/Classes/Comment.h
+c000000004C83BF2E00000000000003C8
+t1283702574
+s968
+i<Foundation/Foundation.h>
+
+N/Users/deon/Documents/HackerNewsReader2/Classes/Comment.m
+c000000004C83BF1E00000000000004C1
+t1283702558
+s1217
+i"Comment.h"
+
+N/Users/deon/Documents/HackerNewsReader2/Classes/EGORefreshTableHeaderView.h
+c000000004CB1B5DB00000000000006D2
+t1286714843
+s1746
+i<UIKit/UIKit.h>
+i<QuartzCore/QuartzCore.h>
+
+N/Users/deon/Documents/HackerNewsReader2/Classes/EGORefreshTableHeaderView.m
+c000000004CB1BC5B00000000000017DA
+t1286716507
+s6106
+i"EGORefreshTableHeaderView.h"
+
+N/Users/deon/Documents/HackerNewsReader2/Classes/FetchCommentsRequest.h
+c000000004CB0597600000000000000EB
+t1286625654
+s235
+i<Foundation/Foundation.h>
+
+N/Users/deon/Documents/HackerNewsReader2/Classes/FetchCommentsRequest.m
+c000000004CB06178000000000000147C
+t1286627704
+s5244
+i"FetchCommentsRequest.h"
+i"Comment.h"
+i"RegexKitLite.h"
+
+N/Users/deon/Documents/HackerNewsReader2/Classes/FetchCommentsRequestDelegate.h
+c000000004CB0A03700000000000001C4
+t1286643767
+s452
+i<Foundation/Foundation.h>
+
+N/Users/deon/Documents/HackerNewsReader2/Classes/FetchStoriesRequest.h
+c000000004CB05E7300000000000001E2
+t1286626931
+s482
+i<Foundation/Foundation.h>
+i"FetchStoriesRequestDelegate.h"
+
+N/Users/deon/Documents/HackerNewsReader2/Classes/FetchStoriesRequest.m
+c000000004CB216320000000000001BC5
+t1286739506
+s7109
+i"FetchStoriesRequest.h"
+i"Story.h"
+i"RegexKitLite.h"
+
+N/Users/deon/Documents/HackerNewsReader2/Classes/FetchStoriesRequestDelegate.h
+c000000004CB05FE400000000000001E3
+t1286627300
+s483
+i<Foundation/Foundation.h>
+
+N/Users/deon/Documents/HackerNewsReader2/Classes/HackerNews.h
+c000000004D9AF3E8000000000000019C
+t1302000616
+s412
+i<Foundation/Foundation.h>
+
+N/Users/deon/Documents/HackerNewsReader2/Classes/HackerNews.m
+c000000004CB061010000000000000109
+t1286627585
+s265
+i"HackerNews.h"
+i"RegexKitLite.h"
+i"Story.h"
+i"Comment.h"
+
+N/Users/deon/Documents/HackerNewsReader2/Classes/HackerNewsReader2AppDelegate.h
+c000000004D9AF31A00000000000002D6
+t1302000410
+s726
+i<UIKit/UIKit.h>
+i"FetchStoriesRequestDelegate.h"
+i"FetchCommentsRequestDelegate.h"
+
+N/Users/deon/Documents/HackerNewsReader2/Classes/HackerNewsReader2AppDelegate.m
+c000000004D9AF35F0000000000001016
+t1302000479
+s4118
+i"HackerNewsReader2AppDelegate.h"
+i"Story.h"
+i"RegexKitLite.h"
+i"Comment.h"
+i"RootViewController.h"
+i"FetchStoriesRequest.h"
+i"StoriesViewController.h"
+
+N/Users/deon/Documents/HackerNewsReader2/Classes/LoadNextPageTableFooterView.h
+c000000004CB1B65800000000000006ED
+t1286714968
+s1773
+i<UIKit/UIKit.h>
+i<QuartzCore/QuartzCore.h>
+i"EGORefreshTableHeaderView.h"
+
+N/Users/deon/Documents/HackerNewsReader2/Classes/LoadNextPageTableFooterView.m
+c000000004CB212BE0000000000001B95
+t1286738622
+s7061
+i"LoadNextPageTableFooterView.h"
+
+N/Users/deon/Documents/HackerNewsReader2/Classes/RegexKitLite.h
+c000000004BC5E8E10000000000004130
+t1271261409
+s16688
+i<Foundation/NSArray.h>
+i<Foundation/NSError.h>
+i<Foundation/NSObjCRuntime.h>
+i<Foundation/NSRange.h>
+i<Foundation/NSString.h>
+i<limits.h>
+i<stdint.h>
+i<sys/types.h>
+i<TargetConditionals.h>
+i<AvailabilityMacros.h>
+
+N/Users/deon/Documents/HackerNewsReader2/Classes/RegexKitLite.m
+c000000004BCB02C90000000000032498
+t1271595721
+s205976
+i<CoreFoundation/CFBase.h>
+i<CoreFoundation/CFArray.h>
+i<CoreFoundation/CFString.h>
+i<Foundation/NSArray.h>
+i<Foundation/NSDictionary.h>
+i<Foundation/NSError.h>
+i<Foundation/NSException.h>
+i<Foundation/NSNotification.h>
+i<Foundation/NSRunLoop.h>
+i<Foundation/NSGarbageCollector.h>
+i<objc/runtime.h>
+i<objc/objc-runtime.h>
+i<libkern/OSAtomic.h>
+i<mach-o/loader.h>
+i<AvailabilityMacros.h>
+i<dlfcn.h>
+i<string.h>
+i<stdarg.h>
+i<stdlib.h>
+i<stdio.h>
+i"RegexKitLite.h"
+
+N/Users/deon/Documents/HackerNewsReader2/Classes/Story.h
+c000000004CB0B8730000000000000434
+t1286649971
+s1076
+i<Foundation/Foundation.h>
+
+N/Users/deon/Documents/HackerNewsReader2/Classes/Story.m
+c000000004CB0BB2400000000000005ED
+t1286650660
+s1517
+i"Story.h"
+
+N/Users/deon/Documents/HackerNewsReader2/Classes/StoryCell.h
+c000000004CB0CC4000000000000001AA
+t1286655040
+s426
+i<UIKit/UIKit.h>
+i"Story.h"
+
+N/Users/deon/Documents/HackerNewsReader2/Classes/StoryCell.m
+c000000004CB18CCF000000000000109B
+t1286704335
+s4251
+i"StoryCell.h"
+
+N/Users/deon/Documents/HackerNewsReader2/HackerNewsReader2_Prefix.pch
+c000000004D9AF1EE00000000000000CB
+t1302000110
+s203
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/deon/Documents/HackerNewsReader2/MainWindow.xib
+c000000004D9AF48100000000000047AE
+t1302000769
+s18350
+
+N/Users/deon/Documents/HackerNewsReader2/Resources/grayArrow.png
+c000000004C939727000000000000077A
+t1284740903
+s1914
+
+N/Users/deon/Documents/HackerNewsReader2/RootViewController.h
+c000000004CAF8EDB0000000000000124
+t1286573787
+s292
+i<Foundation/Foundation.h>
+
+N/Users/deon/Documents/HackerNewsReader2/RootViewController.m
+c000000004CB08DB9000000000000034E
+t1286639033
+s846
+i"RootViewController.h"
+i"StoryCell.h"
+
+N/Users/deon/Documents/HackerNewsReader2/StoriesViewController.h
+c000000004CB1E7260000000000000348
+t1286727462
+s840
+i<Foundation/Foundation.h>
+i"FetchStoriesRequestDelegate.h"
+
+N/Users/deon/Documents/HackerNewsReader2/StoriesViewController.m
+c000000004CB2222F000000000000274D
+t1286742575
+s10061
+i"StoriesViewController.h"
+i"StoryCell.h"
+i"EGORefreshTableHeaderView.h"
+i"FetchStoriesRequest.h"
+i"LoadNextPageTableFooterView.h"
+
+N/Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos/HackerNewsReader2.app
+t1302000829
+s374
+
+N/Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos/HackerNewsReader2.app.dSYM
+t1302000829
+s102
+
+N/Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos/HackerNewsReader2.app/HackerNewsReader2
+t1302000829
+s411736
+
+N/Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos/HackerNewsReader2.app/Info.plist
+t1302000822
+s885
+
+N/Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos/HackerNewsReader2.app/MainWindow.nib
+t1302000823
+s994
+
+N/Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos/HackerNewsReader2.app/PkgInfo
+t1302000822
+s8
+
+N/Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos/HackerNewsReader2.app/ResourceRules.plist
+t1302000786
+s485
+
+N/Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos/HackerNewsReader2.app/embedded.mobileprovision
+t1302000792
+s7285
+
+N/Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos/HackerNewsReader2.app/grayArrow.png
+t1302000786
+s2080
+
+N/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2.xcent
+t1302000829
+s440
+
+N/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv6/Comment.o
+t1302000825
+s14496
+
+N/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv6/EGORefreshTableHeaderView.o
+t1302000825
+s58060
+
+N/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv6/FetchCommentsRequest.o
+t1302000825
+s12940
+
+N/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv6/FetchStoriesRequest.o
+t1302000825
+s26608
+
+N/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv6/HackerNews.o
+t1302000825
+s6100
+
+N/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv6/HackerNewsReader2
+t1302000828
+s215996
+
+N/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv6/HackerNewsReader2.LinkFileList
+c000000004D9AF492000000000000078E
+t1302000786
+s1934
+
+N/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv6/HackerNewsReader2AppDelegate.o
+t1302000825
+s62644
+
+N/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv6/LoadNextPageTableFooterView.o
+t1302000825
+s59208
+
+N/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv6/RegexKitLite.o
+t1302000827
+s204824
+
+N/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv6/RootViewController.o
+t1302000826
+s45620
+
+N/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv6/StoriesViewController.o
+t1302000826
+s78704
+
+N/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv6/Story.o
+t1302000826
+s15644
+
+N/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv6/StoryCell.o
+t1302000826
+s53056
+
+N/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv6/main.o
+t1302000825
+s7316
+
+N/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv7/Comment.o
+t1302000827
+s14392
+
+N/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv7/EGORefreshTableHeaderView.o
+t1302000827
+s57524
+
+N/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv7/FetchCommentsRequest.o
+t1302000827
+s12804
+
+N/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv7/FetchStoriesRequest.o
+t1302000827
+s26192
+
+N/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv7/HackerNews.o
+t1302000827
+s6100
+
+N/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv7/HackerNewsReader2
+t1302000829
+s190552
+
+N/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv7/HackerNewsReader2.LinkFileList
+c000000004D9AF492000000000000078E
+t1302000786
+s1934
+
+N/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv7/HackerNewsReader2AppDelegate.o
+t1302000826
+s62484
+
+N/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv7/LoadNextPageTableFooterView.o
+t1302000827
+s58672
+
+N/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv7/RegexKitLite.o
+t1302000828
+s182296
+
+N/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv7/RootViewController.o
+t1302000828
+s45572
+
+N/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv7/StoriesViewController.o
+t1302000828
+s77136
+
+N/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv7/Story.o
+t1302000828
+s15524
+
+N/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv7/StoryCell.o
+t1302000828
+s52516
+
+N/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv7/main.o
+t1302000826
+s7300
+
+N/Users/deon/Documents/HackerNewsReader2/main.m
+c000000004D9AF1EE0000000000000167
+t1302000110
+s359
+i<UIKit/UIKit.h>
+
+N/Users/deon/Library/MobileDevice/Provisioning Profiles/62A5273D-E521-44D3-95F3-1C7DB746EC3A.mobileprovision
+c000000004D99D3F20000000000001C75
+t1301926898
+s7285
+
+N/var/folders/2s/2s7PmkMdHzuunr-Np2Q+G++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HackerNewsReader2_Prefix-cpmeyrtceehiwudaavwfhvmvnqpa/HackerNewsReader2_Prefix.pch.gch
+t1302000825
+s10192796
+
+N/var/folders/2s/2s7PmkMdHzuunr-Np2Q+G++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HackerNewsReader2_Prefix-djvgmiavwjbuhibgefzrufgnyipg/HackerNewsReader2_Prefix.pch.gch
+t1302000788
+s10184604
+
+N/var/folders/2s/2s7PmkMdHzuunr-Np2Q+G++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HackerNewsReader2_Prefix-fmwebihpzgoatuetkzykejjfgjpy/HackerNewsReader2_Prefix.pch.gch
+t1302000788
+s10647452
+
+N/var/folders/2s/2s7PmkMdHzuunr-Np2Q+G++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HackerNewsReader2_Prefix-hdfchgsmjjlvqcagqremhbmhyydu/HackerNewsReader2_Prefix.pch.gch
+t1302000824
+s10651548
+
+NHackerNewsReader2-Info.plist
+c000000004D9AF1EE000000000000038D
+t1302000110
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies323693622#323693622#0(0"0(0#1#0"2522911376#0"0#
+
+CCodeSign /Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos/HackerNewsReader2.app
+s323693629.268061
+e323693629.717781
+r1
+xCodeSign
+x/Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos/HackerNewsReader2.app
+lSLF07#2@51"CodeSign build/Debug-iphoneos/HackerNewsReader2.app323693629#323693629#0(0"0(0#0#82"/Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos/HackerNewsReader2.app2522911376#700"    cd /Users/deon/Documents/HackerNewsReader2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Deon Botha (J856G6655N)" --resource-rules=/Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos/HackerNewsReader2.app/ResourceRules.plist --entitlements /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2.xcent /Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos/HackerNewsReader2.app0#
+
+CCompileC build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv6/Comment.o /Users/deon/Documents/HackerNewsReader2/Classes/Comment.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s323693625.338456
+e323693625.452977
+r1
+xCompileC
+xbuild/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv6/Comment.o
+x/Users/deon/Documents/HackerNewsReader2/Classes/Comment.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/deon/Documents/HackerNewsReader2/Classes/Comment.m323693625#323693625#0(0"0(0#0#57"/Users/deon/Documents/HackerNewsReader2/Classes/Comment.m2522911376#1949"    cd /Users/deon/Documents/HackerNewsReader2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-generated-files.hmap -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-own-target-headers.hmap -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-all-target-headers.hmap -iquote /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-project-headers.hmap -F/Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos -I/Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos/include -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/DerivedSources/armv6 -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/DerivedSources -include /var/folders/2s/2s7PmkMdHzuunr-Np2Q+G++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HackerNewsReader2_Prefix-cpmeyrtceehiwudaavwfhvmvnqpa/HackerNewsReader2_Prefix.pch -c /Users/deon/Documents/HackerNewsReader2/Classes/Comment.m -o /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv6/Comment.o0#
+
+CCompileC build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv6/EGORefreshTableHeaderView.o /Users/deon/Documents/HackerNewsReader2/Classes/EGORefreshTableHeaderView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s323693625.449982
+e323693625.655224
+r1
+xCompileC
+xbuild/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv6/EGORefreshTableHeaderView.o
+x/Users/deon/Documents/HackerNewsReader2/Classes/EGORefreshTableHeaderView.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/deon/Documents/HackerNewsReader2/Classes/EGORefreshTableHeaderView.m323693625#323693625#0(0"0(0#0#75"/Users/deon/Documents/HackerNewsReader2/Classes/EGORefreshTableHeaderView.m2522911376#1985"    cd /Users/deon/Documents/HackerNewsReader2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-generated-files.hmap -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-own-target-headers.hmap -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-all-target-headers.hmap -iquote /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-project-headers.hmap -F/Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos -I/Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos/include -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/DerivedSources/armv6 -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/DerivedSources -include /var/folders/2s/2s7PmkMdHzuunr-Np2Q+G++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HackerNewsReader2_Prefix-cpmeyrtceehiwudaavwfhvmvnqpa/HackerNewsReader2_Prefix.pch -c /Users/deon/Documents/HackerNewsReader2/Classes/EGORefreshTableHeaderView.m -o /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv6/EGORefreshTableHeaderView.o0#
+
+CCompileC build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv6/FetchCommentsRequest.o /Users/deon/Documents/HackerNewsReader2/Classes/FetchCommentsRequest.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s323693625.453137
+e323693625.598155
+r1
+xCompileC
+xbuild/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv6/FetchCommentsRequest.o
+x/Users/deon/Documents/HackerNewsReader2/Classes/FetchCommentsRequest.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/deon/Documents/HackerNewsReader2/Classes/FetchCommentsRequest.m323693625#323693625#0(0"0(0#0#70"/Users/deon/Documents/HackerNewsReader2/Classes/FetchCommentsRequest.m2522911376#1975"    cd /Users/deon/Documents/HackerNewsReader2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-generated-files.hmap -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-own-target-headers.hmap -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-all-target-headers.hmap -iquote /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-project-headers.hmap -F/Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos -I/Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos/include -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/DerivedSources/armv6 -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/DerivedSources -include /var/folders/2s/2s7PmkMdHzuunr-Np2Q+G++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HackerNewsReader2_Prefix-cpmeyrtceehiwudaavwfhvmvnqpa/HackerNewsReader2_Prefix.pch -c /Users/deon/Documents/HackerNewsReader2/Classes/FetchCommentsRequest.m -o /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv6/FetchCommentsRequest.o0#
+
+CCompileC build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv6/FetchStoriesRequest.o /Users/deon/Documents/HackerNewsReader2/Classes/FetchStoriesRequest.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s323693625.598331
+e323693625.841098
+r1
+xCompileC
+xbuild/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv6/FetchStoriesRequest.o
+x/Users/deon/Documents/HackerNewsReader2/Classes/FetchStoriesRequest.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/deon/Documents/HackerNewsReader2/Classes/FetchStoriesRequest.m323693625#323693625#0(0"0(0#0#69"/Users/deon/Documents/HackerNewsReader2/Classes/FetchStoriesRequest.m2522911376#1973"    cd /Users/deon/Documents/HackerNewsReader2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-generated-files.hmap -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-own-target-headers.hmap -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-all-target-headers.hmap -iquote /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-project-headers.hmap -F/Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos -I/Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos/include -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/DerivedSources/armv6 -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/DerivedSources -include /var/folders/2s/2s7PmkMdHzuunr-Np2Q+G++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HackerNewsReader2_Prefix-cpmeyrtceehiwudaavwfhvmvnqpa/HackerNewsReader2_Prefix.pch -c /Users/deon/Documents/HackerNewsReader2/Classes/FetchStoriesRequest.m -o /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv6/FetchStoriesRequest.o0#
+
+CCompileC build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv6/HackerNews.o /Users/deon/Documents/HackerNewsReader2/Classes/HackerNews.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s323693625.655380
+e323693625.759085
+r1
+xCompileC
+xbuild/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv6/HackerNews.o
+x/Users/deon/Documents/HackerNewsReader2/Classes/HackerNews.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/deon/Documents/HackerNewsReader2/Classes/HackerNews.m:19: warning: incomplete implementation of class 'HackerNews'
+o/Users/deon/Documents/HackerNewsReader2/Classes/HackerNews.m:19: warning: method definition for '+getCommentsFromHTML:' not found
+o/Users/deon/Documents/HackerNewsReader2/Classes/HackerNews.m:19: warning: method definition for '+getNextPageURLStringFromHTML:' not found
+o/Users/deon/Documents/HackerNewsReader2/Classes/HackerNews.m:19: warning: method definition for '+getStoriesFromHTML:' not found
+lSLF07#2@68"Compile /Users/deon/Documents/HackerNewsReader2/Classes/HackerNews.m323693625#323693625#0(520"/Users/deon/Documents/HackerNewsReader2/Classes/HackerNews.m:19: warning: incomplete implementation of class 'HackerNews'/Users/deon/Documents/HackerNewsReader2/Classes/HackerNews.m:19: warning: method definition for '+getCommentsFromHTML:' not found/Users/deon/Documents/HackerNewsReader2/Classes/HackerNews.m:19: warning: method definition for '+getNextPageURLStringFromHTML:' not found/Users/deon/Documents/HackerNewsReader2/Classes/HackerNews.m:19: warning: method definition for '+getStoriesFromHTML:' not found4(22@47"Incomplete implementation of class 'HackerNews'323693625#0#122#0(6@60"/Users/deon/Documents/HackerNewsReader2/Classes/HackerNews.m308320385#19#0#19#0#38"incomplete implementation of class '*'0(22@55"Method definition for '+getCommentsFromHTML:' not found323693625#122#130#0(6@60"/Users/deon/Documents/HackerNewsReader2/Classes/HackerNews.m308320385#19#0#19#0#35"method definition for '*' not found0(22@64"Method definition for '+getNextPageURLStringFromHTML:' not found323693625#252#139#0(6@60"/Users/deon/Documents/HackerNewsReader2/Classes/HackerNews.m308320385#19#0#19#0#35"method definition for '*' not found0(22@54"Method definition for '+getStoriesFromHTML:' not found323693625#391#129#0(6@60"/Users/deon/Documents/HackerNewsReader2/Classes/HackerNews.m308320385#19#0#19#0#35"method definition for '*' not found0(0#0#60"/Users/deon/Documents/HackerNewsReader2/Classes/HackerNews.m2522911376#1955"    cd /Users/deon/Documents/HackerNewsReader2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-generated-files.hmap -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-own-target-headers.hmap -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-all-target-headers.hmap -iquote /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-project-headers.hmap -F/Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos -I/Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos/include -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/DerivedSources/armv6 -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/DerivedSources -include /var/folders/2s/2s7PmkMdHzuunr-Np2Q+G++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HackerNewsReader2_Prefix-cpmeyrtceehiwudaavwfhvmvnqpa/HackerNewsReader2_Prefix.pch -c /Users/deon/Documents/HackerNewsReader2/Classes/HackerNews.m -o /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv6/HackerNews.o0#
+
+CCompileC build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv6/HackerNewsReader2AppDelegate.o /Users/deon/Documents/HackerNewsReader2/Classes/HackerNewsReader2AppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s323693625.259861
+e323693625.449799
+r1
+xCompileC
+xbuild/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv6/HackerNewsReader2AppDelegate.o
+x/Users/deon/Documents/HackerNewsReader2/Classes/HackerNewsReader2AppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Users/deon/Documents/HackerNewsReader2/Classes/HackerNewsReader2AppDelegate.m323693625#323693625#0(0"0(0#0#78"/Users/deon/Documents/HackerNewsReader2/Classes/HackerNewsReader2AppDelegate.m2522911376#1991"    cd /Users/deon/Documents/HackerNewsReader2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-generated-files.hmap -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-own-target-headers.hmap -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-all-target-headers.hmap -iquote /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-project-headers.hmap -F/Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos -I/Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos/include -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/DerivedSources/armv6 -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/DerivedSources -include /var/folders/2s/2s7PmkMdHzuunr-Np2Q+G++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HackerNewsReader2_Prefix-cpmeyrtceehiwudaavwfhvmvnqpa/HackerNewsReader2_Prefix.pch -c /Users/deon/Documents/HackerNewsReader2/Classes/HackerNewsReader2AppDelegate.m -o /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv6/HackerNewsReader2AppDelegate.o0#
+
+CCompileC build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv6/LoadNextPageTableFooterView.o /Users/deon/Documents/HackerNewsReader2/Classes/LoadNextPageTableFooterView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s323693625.759264
+e323693625.991997
+r1
+xCompileC
+xbuild/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv6/LoadNextPageTableFooterView.o
+x/Users/deon/Documents/HackerNewsReader2/Classes/LoadNextPageTableFooterView.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/deon/Documents/HackerNewsReader2/Classes/LoadNextPageTableFooterView.m323693625#323693626#0(0"0(0#0#77"/Users/deon/Documents/HackerNewsReader2/Classes/LoadNextPageTableFooterView.m2522911376#1989"    cd /Users/deon/Documents/HackerNewsReader2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-generated-files.hmap -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-own-target-headers.hmap -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-all-target-headers.hmap -iquote /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-project-headers.hmap -F/Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos -I/Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos/include -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/DerivedSources/armv6 -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/DerivedSources -include /var/folders/2s/2s7PmkMdHzuunr-Np2Q+G++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HackerNewsReader2_Prefix-cpmeyrtceehiwudaavwfhvmvnqpa/HackerNewsReader2_Prefix.pch -c /Users/deon/Documents/HackerNewsReader2/Classes/LoadNextPageTableFooterView.m -o /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv6/LoadNextPageTableFooterView.o0#
+
+CCompileC build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv6/RegexKitLite.o /Users/deon/Documents/HackerNewsReader2/Classes/RegexKitLite.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s323693625.841251
+e323693628.017816
+r1
+xCompileC
+xbuild/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv6/RegexKitLite.o
+x/Users/deon/Documents/HackerNewsReader2/Classes/RegexKitLite.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/deon/Documents/HackerNewsReader2/Classes/RegexKitLite.m323693625#323693628#0(0"0(0#0#62"/Users/deon/Documents/HackerNewsReader2/Classes/RegexKitLite.m2522911376#1959"    cd /Users/deon/Documents/HackerNewsReader2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-generated-files.hmap -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-own-target-headers.hmap -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-all-target-headers.hmap -iquote /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-project-headers.hmap -F/Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos -I/Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos/include -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/DerivedSources/armv6 -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/DerivedSources -include /var/folders/2s/2s7PmkMdHzuunr-Np2Q+G++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HackerNewsReader2_Prefix-cpmeyrtceehiwudaavwfhvmvnqpa/HackerNewsReader2_Prefix.pch -c /Users/deon/Documents/HackerNewsReader2/Classes/RegexKitLite.m -o /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv6/RegexKitLite.o0#
+
+CCompileC build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv6/RootViewController.o /Users/deon/Documents/HackerNewsReader2/RootViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s323693626.315818
+e323693626.419254
+r1
+xCompileC
+xbuild/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv6/RootViewController.o
+x/Users/deon/Documents/HackerNewsReader2/RootViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/deon/Documents/HackerNewsReader2/RootViewController.m323693626#323693626#0(0"0(0#0#60"/Users/deon/Documents/HackerNewsReader2/RootViewController.m2522911376#1963"    cd /Users/deon/Documents/HackerNewsReader2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-generated-files.hmap -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-own-target-headers.hmap -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-all-target-headers.hmap -iquote /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-project-headers.hmap -F/Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos -I/Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos/include -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/DerivedSources/armv6 -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/DerivedSources -include /var/folders/2s/2s7PmkMdHzuunr-Np2Q+G++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HackerNewsReader2_Prefix-cpmeyrtceehiwudaavwfhvmvnqpa/HackerNewsReader2_Prefix.pch -c /Users/deon/Documents/HackerNewsReader2/RootViewController.m -o /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv6/RootViewController.o0#
+
+CCompileC build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv6/StoriesViewController.o /Users/deon/Documents/HackerNewsReader2/StoriesViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s323693626.419416
+e323693626.713971
+r1
+xCompileC
+xbuild/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv6/StoriesViewController.o
+x/Users/deon/Documents/HackerNewsReader2/StoriesViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/deon/Documents/HackerNewsReader2/StoriesViewController.m323693626#323693626#0(0"0(0#0#63"/Users/deon/Documents/HackerNewsReader2/StoriesViewController.m2522911376#1969"    cd /Users/deon/Documents/HackerNewsReader2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-generated-files.hmap -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-own-target-headers.hmap -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-all-target-headers.hmap -iquote /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-project-headers.hmap -F/Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos -I/Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos/include -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/DerivedSources/armv6 -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/DerivedSources -include /var/folders/2s/2s7PmkMdHzuunr-Np2Q+G++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HackerNewsReader2_Prefix-cpmeyrtceehiwudaavwfhvmvnqpa/HackerNewsReader2_Prefix.pch -c /Users/deon/Documents/HackerNewsReader2/StoriesViewController.m -o /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv6/StoriesViewController.o0#
+
+CCompileC build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv6/Story.o /Users/deon/Documents/HackerNewsReader2/Classes/Story.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s323693625.992155
+e323693626.125375
+r1
+xCompileC
+xbuild/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv6/Story.o
+x/Users/deon/Documents/HackerNewsReader2/Classes/Story.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/deon/Documents/HackerNewsReader2/Classes/Story.m323693625#323693626#0(0"0(0#0#55"/Users/deon/Documents/HackerNewsReader2/Classes/Story.m2522911376#1945"    cd /Users/deon/Documents/HackerNewsReader2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-generated-files.hmap -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-own-target-headers.hmap -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-all-target-headers.hmap -iquote /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-project-headers.hmap -F/Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos -I/Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos/include -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/DerivedSources/armv6 -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/DerivedSources -include /var/folders/2s/2s7PmkMdHzuunr-Np2Q+G++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HackerNewsReader2_Prefix-cpmeyrtceehiwudaavwfhvmvnqpa/HackerNewsReader2_Prefix.pch -c /Users/deon/Documents/HackerNewsReader2/Classes/Story.m -o /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv6/Story.o0#
+
+CCompileC build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv6/StoryCell.o /Users/deon/Documents/HackerNewsReader2/Classes/StoryCell.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s323693626.125536
+e323693626.315563
+r1
+xCompileC
+xbuild/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv6/StoryCell.o
+x/Users/deon/Documents/HackerNewsReader2/Classes/StoryCell.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/deon/Documents/HackerNewsReader2/Classes/StoryCell.m323693626#323693626#0(0"0(0#0#59"/Users/deon/Documents/HackerNewsReader2/Classes/StoryCell.m2522911376#1953"    cd /Users/deon/Documents/HackerNewsReader2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-generated-files.hmap -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-own-target-headers.hmap -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-all-target-headers.hmap -iquote /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-project-headers.hmap -F/Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos -I/Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos/include -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/DerivedSources/armv6 -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/DerivedSources -include /var/folders/2s/2s7PmkMdHzuunr-Np2Q+G++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HackerNewsReader2_Prefix-cpmeyrtceehiwudaavwfhvmvnqpa/HackerNewsReader2_Prefix.pch -c /Users/deon/Documents/HackerNewsReader2/Classes/StoryCell.m -o /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv6/StoryCell.o0#
+
+CCompileC build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv6/main.o /Users/deon/Documents/HackerNewsReader2/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s323693625.257976
+e323693625.338301
+r1
+xCompileC
+xbuild/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv6/main.o
+x/Users/deon/Documents/HackerNewsReader2/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/deon/Documents/HackerNewsReader2/main.m323693625#323693625#0(0"0(0#0#46"/Users/deon/Documents/HackerNewsReader2/main.m2522911376#1935"    cd /Users/deon/Documents/HackerNewsReader2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-generated-files.hmap -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-own-target-headers.hmap -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-all-target-headers.hmap -iquote /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-project-headers.hmap -F/Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos -I/Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos/include -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/DerivedSources/armv6 -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/DerivedSources -include /var/folders/2s/2s7PmkMdHzuunr-Np2Q+G++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HackerNewsReader2_Prefix-cpmeyrtceehiwudaavwfhvmvnqpa/HackerNewsReader2_Prefix.pch -c /Users/deon/Documents/HackerNewsReader2/main.m -o /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv7/Comment.o /Users/deon/Documents/HackerNewsReader2/Classes/Comment.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s323693626.954007
+e323693627.060046
+r1
+xCompileC
+xbuild/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv7/Comment.o
+x/Users/deon/Documents/HackerNewsReader2/Classes/Comment.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/deon/Documents/HackerNewsReader2/Classes/Comment.m323693626#323693627#0(0"0(0#0#57"/Users/deon/Documents/HackerNewsReader2/Classes/Comment.m2522911376#1949"    cd /Users/deon/Documents/HackerNewsReader2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-generated-files.hmap -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-own-target-headers.hmap -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-all-target-headers.hmap -iquote /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-project-headers.hmap -F/Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos -I/Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos/include -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/DerivedSources/armv7 -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/DerivedSources -include /var/folders/2s/2s7PmkMdHzuunr-Np2Q+G++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HackerNewsReader2_Prefix-hdfchgsmjjlvqcagqremhbmhyydu/HackerNewsReader2_Prefix.pch -c /Users/deon/Documents/HackerNewsReader2/Classes/Comment.m -o /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv7/Comment.o0#
+
+CCompileC build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv7/EGORefreshTableHeaderView.o /Users/deon/Documents/HackerNewsReader2/Classes/EGORefreshTableHeaderView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s323693627.060203
+e323693627.278714
+r1
+xCompileC
+xbuild/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv7/EGORefreshTableHeaderView.o
+x/Users/deon/Documents/HackerNewsReader2/Classes/EGORefreshTableHeaderView.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/deon/Documents/HackerNewsReader2/Classes/EGORefreshTableHeaderView.m323693627#323693627#0(0"0(0#0#75"/Users/deon/Documents/HackerNewsReader2/Classes/EGORefreshTableHeaderView.m2522911376#1985"    cd /Users/deon/Documents/HackerNewsReader2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-generated-files.hmap -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-own-target-headers.hmap -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-all-target-headers.hmap -iquote /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-project-headers.hmap -F/Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos -I/Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos/include -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/DerivedSources/armv7 -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/DerivedSources -include /var/folders/2s/2s7PmkMdHzuunr-Np2Q+G++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HackerNewsReader2_Prefix-hdfchgsmjjlvqcagqremhbmhyydu/HackerNewsReader2_Prefix.pch -c /Users/deon/Documents/HackerNewsReader2/Classes/EGORefreshTableHeaderView.m -o /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv7/EGORefreshTableHeaderView.o0#
+
+CCompileC build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv7/FetchCommentsRequest.o /Users/deon/Documents/HackerNewsReader2/Classes/FetchCommentsRequest.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s323693627.278876
+e323693627.390625
+r1
+xCompileC
+xbuild/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv7/FetchCommentsRequest.o
+x/Users/deon/Documents/HackerNewsReader2/Classes/FetchCommentsRequest.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/deon/Documents/HackerNewsReader2/Classes/FetchCommentsRequest.m323693627#323693627#0(0"0(0#0#70"/Users/deon/Documents/HackerNewsReader2/Classes/FetchCommentsRequest.m2522911376#1975"    cd /Users/deon/Documents/HackerNewsReader2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-generated-files.hmap -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-own-target-headers.hmap -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-all-target-headers.hmap -iquote /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-project-headers.hmap -F/Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos -I/Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos/include -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/DerivedSources/armv7 -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/DerivedSources -include /var/folders/2s/2s7PmkMdHzuunr-Np2Q+G++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HackerNewsReader2_Prefix-hdfchgsmjjlvqcagqremhbmhyydu/HackerNewsReader2_Prefix.pch -c /Users/deon/Documents/HackerNewsReader2/Classes/FetchCommentsRequest.m -o /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv7/FetchCommentsRequest.o0#
+
+CCompileC build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv7/FetchStoriesRequest.o /Users/deon/Documents/HackerNewsReader2/Classes/FetchStoriesRequest.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s323693627.391265
+e323693627.558898
+r1
+xCompileC
+xbuild/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv7/FetchStoriesRequest.o
+x/Users/deon/Documents/HackerNewsReader2/Classes/FetchStoriesRequest.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/deon/Documents/HackerNewsReader2/Classes/FetchStoriesRequest.m323693627#323693627#0(0"0(0#0#69"/Users/deon/Documents/HackerNewsReader2/Classes/FetchStoriesRequest.m2522911376#1973"    cd /Users/deon/Documents/HackerNewsReader2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-generated-files.hmap -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-own-target-headers.hmap -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-all-target-headers.hmap -iquote /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-project-headers.hmap -F/Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos -I/Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos/include -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/DerivedSources/armv7 -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/DerivedSources -include /var/folders/2s/2s7PmkMdHzuunr-Np2Q+G++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HackerNewsReader2_Prefix-hdfchgsmjjlvqcagqremhbmhyydu/HackerNewsReader2_Prefix.pch -c /Users/deon/Documents/HackerNewsReader2/Classes/FetchStoriesRequest.m -o /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv7/FetchStoriesRequest.o0#
+
+CCompileC build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv7/HackerNews.o /Users/deon/Documents/HackerNewsReader2/Classes/HackerNews.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s323693627.559055
+e323693627.651399
+r1
+xCompileC
+xbuild/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv7/HackerNews.o
+x/Users/deon/Documents/HackerNewsReader2/Classes/HackerNews.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/deon/Documents/HackerNewsReader2/Classes/HackerNews.m:19: warning: incomplete implementation of class 'HackerNews'
+o/Users/deon/Documents/HackerNewsReader2/Classes/HackerNews.m:19: warning: method definition for '+getCommentsFromHTML:' not found
+o/Users/deon/Documents/HackerNewsReader2/Classes/HackerNews.m:19: warning: method definition for '+getNextPageURLStringFromHTML:' not found
+o/Users/deon/Documents/HackerNewsReader2/Classes/HackerNews.m:19: warning: method definition for '+getStoriesFromHTML:' not found
+lSLF07#2@68"Compile /Users/deon/Documents/HackerNewsReader2/Classes/HackerNews.m323693627#323693627#0(520"/Users/deon/Documents/HackerNewsReader2/Classes/HackerNews.m:19: warning: incomplete implementation of class 'HackerNews'/Users/deon/Documents/HackerNewsReader2/Classes/HackerNews.m:19: warning: method definition for '+getCommentsFromHTML:' not found/Users/deon/Documents/HackerNewsReader2/Classes/HackerNews.m:19: warning: method definition for '+getNextPageURLStringFromHTML:' not found/Users/deon/Documents/HackerNewsReader2/Classes/HackerNews.m:19: warning: method definition for '+getStoriesFromHTML:' not found4(22@47"Incomplete implementation of class 'HackerNews'323693627#0#122#0(6@60"/Users/deon/Documents/HackerNewsReader2/Classes/HackerNews.m308320385#19#0#19#0#38"incomplete implementation of class '*'0(22@55"Method definition for '+getCommentsFromHTML:' not found323693627#122#130#0(6@60"/Users/deon/Documents/HackerNewsReader2/Classes/HackerNews.m308320385#19#0#19#0#35"method definition for '*' not found0(22@64"Method definition for '+getNextPageURLStringFromHTML:' not found323693627#252#139#0(6@60"/Users/deon/Documents/HackerNewsReader2/Classes/HackerNews.m308320385#19#0#19#0#35"method definition for '*' not found0(22@54"Method definition for '+getStoriesFromHTML:' not found323693627#391#129#0(6@60"/Users/deon/Documents/HackerNewsReader2/Classes/HackerNews.m308320385#19#0#19#0#35"method definition for '*' not found0(0#0#60"/Users/deon/Documents/HackerNewsReader2/Classes/HackerNews.m2522911376#1955"    cd /Users/deon/Documents/HackerNewsReader2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-generated-files.hmap -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-own-target-headers.hmap -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-all-target-headers.hmap -iquote /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-project-headers.hmap -F/Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos -I/Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos/include -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/DerivedSources/armv7 -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/DerivedSources -include /var/folders/2s/2s7PmkMdHzuunr-Np2Q+G++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HackerNewsReader2_Prefix-hdfchgsmjjlvqcagqremhbmhyydu/HackerNewsReader2_Prefix.pch -c /Users/deon/Documents/HackerNewsReader2/Classes/HackerNews.m -o /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv7/HackerNews.o0#
+
+CCompileC build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv7/HackerNewsReader2AppDelegate.o /Users/deon/Documents/HackerNewsReader2/Classes/HackerNewsReader2AppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s323693626.799341
+e323693626.953845
+r1
+xCompileC
+xbuild/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv7/HackerNewsReader2AppDelegate.o
+x/Users/deon/Documents/HackerNewsReader2/Classes/HackerNewsReader2AppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Users/deon/Documents/HackerNewsReader2/Classes/HackerNewsReader2AppDelegate.m323693626#323693626#0(0"0(0#0#78"/Users/deon/Documents/HackerNewsReader2/Classes/HackerNewsReader2AppDelegate.m2522911376#1991"    cd /Users/deon/Documents/HackerNewsReader2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-generated-files.hmap -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-own-target-headers.hmap -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-all-target-headers.hmap -iquote /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-project-headers.hmap -F/Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos -I/Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos/include -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/DerivedSources/armv7 -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/DerivedSources -include /var/folders/2s/2s7PmkMdHzuunr-Np2Q+G++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HackerNewsReader2_Prefix-hdfchgsmjjlvqcagqremhbmhyydu/HackerNewsReader2_Prefix.pch -c /Users/deon/Documents/HackerNewsReader2/Classes/HackerNewsReader2AppDelegate.m -o /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv7/HackerNewsReader2AppDelegate.o0#
+
+CCompileC build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv7/LoadNextPageTableFooterView.o /Users/deon/Documents/HackerNewsReader2/Classes/LoadNextPageTableFooterView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s323693627.651557
+e323693627.880258
+r1
+xCompileC
+xbuild/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv7/LoadNextPageTableFooterView.o
+x/Users/deon/Documents/HackerNewsReader2/Classes/LoadNextPageTableFooterView.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/deon/Documents/HackerNewsReader2/Classes/LoadNextPageTableFooterView.m323693627#323693627#0(0"0(0#0#77"/Users/deon/Documents/HackerNewsReader2/Classes/LoadNextPageTableFooterView.m2522911376#1989"    cd /Users/deon/Documents/HackerNewsReader2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-generated-files.hmap -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-own-target-headers.hmap -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-all-target-headers.hmap -iquote /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-project-headers.hmap -F/Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos -I/Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos/include -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/DerivedSources/armv7 -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/DerivedSources -include /var/folders/2s/2s7PmkMdHzuunr-Np2Q+G++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HackerNewsReader2_Prefix-hdfchgsmjjlvqcagqremhbmhyydu/HackerNewsReader2_Prefix.pch -c /Users/deon/Documents/HackerNewsReader2/Classes/LoadNextPageTableFooterView.m -o /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv7/LoadNextPageTableFooterView.o0#
+
+CCompileC build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv7/RegexKitLite.o /Users/deon/Documents/HackerNewsReader2/Classes/RegexKitLite.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s323693627.880537
+e323693628.980591
+r1
+xCompileC
+xbuild/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv7/RegexKitLite.o
+x/Users/deon/Documents/HackerNewsReader2/Classes/RegexKitLite.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/deon/Documents/HackerNewsReader2/Classes/RegexKitLite.m323693627#323693628#0(0"0(0#0#62"/Users/deon/Documents/HackerNewsReader2/Classes/RegexKitLite.m2522911376#1959"    cd /Users/deon/Documents/HackerNewsReader2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-generated-files.hmap -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-own-target-headers.hmap -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-all-target-headers.hmap -iquote /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-project-headers.hmap -F/Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos -I/Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos/include -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/DerivedSources/armv7 -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/DerivedSources -include /var/folders/2s/2s7PmkMdHzuunr-Np2Q+G++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HackerNewsReader2_Prefix-hdfchgsmjjlvqcagqremhbmhyydu/HackerNewsReader2_Prefix.pch -c /Users/deon/Documents/HackerNewsReader2/Classes/RegexKitLite.m -o /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv7/RegexKitLite.o0#
+
+CCompileC build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv7/RootViewController.o /Users/deon/Documents/HackerNewsReader2/RootViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s323693628.416272
+e323693628.526695
+r1
+xCompileC
+xbuild/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv7/RootViewController.o
+x/Users/deon/Documents/HackerNewsReader2/RootViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/deon/Documents/HackerNewsReader2/RootViewController.m323693628#323693628#0(0"0(0#0#60"/Users/deon/Documents/HackerNewsReader2/RootViewController.m2522911376#1963"    cd /Users/deon/Documents/HackerNewsReader2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-generated-files.hmap -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-own-target-headers.hmap -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-all-target-headers.hmap -iquote /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-project-headers.hmap -F/Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos -I/Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos/include -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/DerivedSources/armv7 -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/DerivedSources -include /var/folders/2s/2s7PmkMdHzuunr-Np2Q+G++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HackerNewsReader2_Prefix-hdfchgsmjjlvqcagqremhbmhyydu/HackerNewsReader2_Prefix.pch -c /Users/deon/Documents/HackerNewsReader2/RootViewController.m -o /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv7/RootViewController.o0#
+
+CCompileC build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv7/StoriesViewController.o /Users/deon/Documents/HackerNewsReader2/StoriesViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s323693628.526858
+e323693628.790742
+r1
+xCompileC
+xbuild/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv7/StoriesViewController.o
+x/Users/deon/Documents/HackerNewsReader2/StoriesViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/deon/Documents/HackerNewsReader2/StoriesViewController.m323693628#323693628#0(0"0(0#0#63"/Users/deon/Documents/HackerNewsReader2/StoriesViewController.m2522911376#1969"    cd /Users/deon/Documents/HackerNewsReader2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-generated-files.hmap -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-own-target-headers.hmap -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-all-target-headers.hmap -iquote /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-project-headers.hmap -F/Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos -I/Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos/include -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/DerivedSources/armv7 -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/DerivedSources -include /var/folders/2s/2s7PmkMdHzuunr-Np2Q+G++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HackerNewsReader2_Prefix-hdfchgsmjjlvqcagqremhbmhyydu/HackerNewsReader2_Prefix.pch -c /Users/deon/Documents/HackerNewsReader2/StoriesViewController.m -o /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv7/StoriesViewController.o0#
+
+CCompileC build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv7/Story.o /Users/deon/Documents/HackerNewsReader2/Classes/Story.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s323693628.106671
+e323693628.220787
+r1
+xCompileC
+xbuild/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv7/Story.o
+x/Users/deon/Documents/HackerNewsReader2/Classes/Story.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/deon/Documents/HackerNewsReader2/Classes/Story.m323693628#323693628#0(0"0(0#0#55"/Users/deon/Documents/HackerNewsReader2/Classes/Story.m2522911376#1945"    cd /Users/deon/Documents/HackerNewsReader2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-generated-files.hmap -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-own-target-headers.hmap -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-all-target-headers.hmap -iquote /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-project-headers.hmap -F/Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos -I/Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos/include -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/DerivedSources/armv7 -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/DerivedSources -include /var/folders/2s/2s7PmkMdHzuunr-Np2Q+G++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HackerNewsReader2_Prefix-hdfchgsmjjlvqcagqremhbmhyydu/HackerNewsReader2_Prefix.pch -c /Users/deon/Documents/HackerNewsReader2/Classes/Story.m -o /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv7/Story.o0#
+
+CCompileC build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv7/StoryCell.o /Users/deon/Documents/HackerNewsReader2/Classes/StoryCell.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s323693628.220940
+e323693628.416104
+r1
+xCompileC
+xbuild/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv7/StoryCell.o
+x/Users/deon/Documents/HackerNewsReader2/Classes/StoryCell.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/deon/Documents/HackerNewsReader2/Classes/StoryCell.m323693628#323693628#0(0"0(0#0#59"/Users/deon/Documents/HackerNewsReader2/Classes/StoryCell.m2522911376#1953"    cd /Users/deon/Documents/HackerNewsReader2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-generated-files.hmap -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-own-target-headers.hmap -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-all-target-headers.hmap -iquote /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-project-headers.hmap -F/Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos -I/Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos/include -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/DerivedSources/armv7 -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/DerivedSources -include /var/folders/2s/2s7PmkMdHzuunr-Np2Q+G++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HackerNewsReader2_Prefix-hdfchgsmjjlvqcagqremhbmhyydu/HackerNewsReader2_Prefix.pch -c /Users/deon/Documents/HackerNewsReader2/Classes/StoryCell.m -o /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv7/StoryCell.o0#
+
+CCompileC build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv7/main.o /Users/deon/Documents/HackerNewsReader2/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s323693626.714129
+e323693626.799182
+r1
+xCompileC
+xbuild/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv7/main.o
+x/Users/deon/Documents/HackerNewsReader2/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/deon/Documents/HackerNewsReader2/main.m323693626#323693626#0(0"0(0#0#46"/Users/deon/Documents/HackerNewsReader2/main.m2522911376#1935"    cd /Users/deon/Documents/HackerNewsReader2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-generated-files.hmap -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-own-target-headers.hmap -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-all-target-headers.hmap -iquote /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-project-headers.hmap -F/Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos -I/Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos/include -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/DerivedSources/armv7 -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/DerivedSources -include /var/folders/2s/2s7PmkMdHzuunr-Np2Q+G++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HackerNewsReader2_Prefix-hdfchgsmjjlvqcagqremhbmhyydu/HackerNewsReader2_Prefix.pch -c /Users/deon/Documents/HackerNewsReader2/main.m -o /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv7/main.o0#
+
+CCompileXIB /Users/deon/Documents/HackerNewsReader2/MainWindow.xib
+s323693622.503494
+e323693623.167745
+r1
+xCompileXIB
+x/Users/deon/Documents/HackerNewsReader2/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib323693622#323693623#0(0"0(0#0#54"/Users/deon/Documents/HackerNewsReader2/MainWindow.xib2522911376#555"    cd /Users/deon/Documents/HackerNewsReader2    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos/HackerNewsReader2.app/MainWindow.nib /Users/deon/Documents/HackerNewsReader2/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk0#
+
+CCopyPNGFile /Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos/HackerNewsReader2.app/grayArrow.png Resources/grayArrow.png
+s323693586.172155
+e323693586.772953
+r1
+xCopyPNGFile
+x/Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos/HackerNewsReader2.app/grayArrow.png
+xResources/grayArrow.png
+lSLF07#2@92"CopyPNGFile build/Debug-iphoneos/HackerNewsReader2.app/grayArrow.png Resources/grayArrow.png323693586#323693586#0(0"0(0#0#63"/Users/deon/Documents/HackerNewsReader2/Resources/grayArrow.png2522911376#489"    cd /Users/deon/Documents/HackerNewsReader2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/deon/Documents/HackerNewsReader2/Resources/grayArrow.png /Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos/HackerNewsReader2.app/grayArrow.png0#
+
+CCpResource build/Debug-iphoneos/HackerNewsReader2.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+s323693586.053526
+e323693586.100446
+r1
+xCpResource
+xbuild/Debug-iphoneos/HackerNewsReader2.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist323693586#323693586#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist2522911376#506"    cd /Users/deon/Documents/HackerNewsReader2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist /Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos/HackerNewsReader2.app0#
+
+CCreateUniversalBinary /Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos/HackerNewsReader2.app/HackerNewsReader2 normal "armv6 armv7"
+s323693629.074278
+e323693629.106243
+r1
+xCreateUniversalBinary
+x/Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos/HackerNewsReader2.app/HackerNewsReader2
+xnormal
+xarmv6 armv7
+lSLF07#2@103"CreateUniversalBinary build/Debug-iphoneos/HackerNewsReader2.app/HackerNewsReader2 normal "armv6 armv7"323693629#323693629#0(0"0(0#0#51"/Users/deon/Documents/HackerNewsReader2/armv6 armv72522911376#602"    cd /Users/deon/Documents/HackerNewsReader2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv6/HackerNewsReader2 /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv7/HackerNewsReader2 -output /Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos/HackerNewsReader2.app/HackerNewsReader20#
+
+CGenerateDSYMFile /Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos/HackerNewsReader2.app.dSYM /Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos/HackerNewsReader2.app/HackerNewsReader2
+s323693629.106386
+e323693629.232959
+r1
+xGenerateDSYMFile
+x/Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos/HackerNewsReader2.app.dSYM
+x/Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos/HackerNewsReader2.app/HackerNewsReader2
+lSLF07#2@125"GenerateDSYMFile build/Debug-iphoneos/HackerNewsReader2.app.dSYM build/Debug-iphoneos/HackerNewsReader2.app/HackerNewsReader2323693629#323693629#0(0"0(0#0#100"/Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos/HackerNewsReader2.app/HackerNewsReader22522911376#395"    cd /Users/deon/Documents/HackerNewsReader2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos/HackerNewsReader2.app/HackerNewsReader2 -o /Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos/HackerNewsReader2.app.dSYM0#
+
+CLd /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv6/HackerNewsReader2 normal armv6
+s323693628.017954
+e323693628.106511
+r1
+xLd
+x/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv6/HackerNewsReader2
+xnormal
+xarmv6
+lSLF07#2@152"Link /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv6/HackerNewsReader2323693628#323693628#0(0"0(0#0#0"2522911376#958"    cd /Users/deon/Documents/HackerNewsReader2    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -L/Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos -F/Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos -filelist /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv6/HackerNewsReader2.LinkFileList -dead_strip -miphoneos-version-min=4.0 -framework Foundation -framework UIKit -framework CoreGraphics -framework QuartzCore -licucore.A -o /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv6/HackerNewsReader20#
+
+CLd /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv7/HackerNewsReader2 normal armv7
+s323693628.980736
+e323693629.074123
+r1
+xLd
+x/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv7/HackerNewsReader2
+xnormal
+xarmv7
+lSLF07#2@152"Link /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv7/HackerNewsReader2323693628#323693629#0(0"0(0#0#0"2522911376#958"    cd /Users/deon/Documents/HackerNewsReader2    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -L/Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos -F/Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos -filelist /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv7/HackerNewsReader2.LinkFileList -dead_strip -miphoneos-version-min=4.0 -framework Foundation -framework UIKit -framework CoreGraphics -framework QuartzCore -licucore.A -o /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/Objects-normal/armv7/HackerNewsReader20#
+
+CProcessInfoPlistFile /Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos/HackerNewsReader2.app/Info.plist HackerNewsReader2-Info.plist
+s323693622.498679
+e323693622.503360
+r1
+xProcessInfoPlistFile
+x/Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos/HackerNewsReader2.app/Info.plist
+xHackerNewsReader2-Info.plist
+lSLF07#2@36"Process HackerNewsReader2-Info.plist323693622#323693622#0(0"0(0#0#68"/Users/deon/Documents/HackerNewsReader2/HackerNewsReader2-Info.plist2522911376#606"    cd /Users/deon/Documents/HackerNewsReader2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility HackerNewsReader2-Info.plist -genpkginfo /Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos/HackerNewsReader2.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos/HackerNewsReader2.app/ResourceRules.plist -o /Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos/HackerNewsReader2.app/Info.plist0#
+
+CProcessPCH /var/folders/2s/2s7PmkMdHzuunr-Np2Q+G++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HackerNewsReader2_Prefix-cpmeyrtceehiwudaavwfhvmvnqpa/HackerNewsReader2_Prefix.pch.gch HackerNewsReader2_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s323693623.167935
+e323693625.257808
+r1
+xProcessPCH
+x/var/folders/2s/2s7PmkMdHzuunr-Np2Q+G++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HackerNewsReader2_Prefix-cpmeyrtceehiwudaavwfhvmvnqpa/HackerNewsReader2_Prefix.pch.gch
+xHackerNewsReader2_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@39"Precompile HackerNewsReader2_Prefix.pch323693623#323693625#0(0"0(0#0#68"/Users/deon/Documents/HackerNewsReader2/HackerNewsReader2_Prefix.pch2522911376#1822"    cd /Users/deon/Documents/HackerNewsReader2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-generated-files.hmap -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-own-target-headers.hmap -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-all-target-headers.hmap -iquote /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-project-headers.hmap -F/Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos -I/Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos/include -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/DerivedSources/armv6 -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/DerivedSources -c /Users/deon/Documents/HackerNewsReader2/HackerNewsReader2_Prefix.pch -o /var/folders/2s/2s7PmkMdHzuunr-Np2Q+G++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HackerNewsReader2_Prefix-cpmeyrtceehiwudaavwfhvmvnqpa/HackerNewsReader2_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/2s/2s7PmkMdHzuunr-Np2Q+G++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HackerNewsReader2_Prefix-djvgmiavwjbuhibgefzrufgnyipg/HackerNewsReader2_Prefix.pch.gch HackerNewsReader2_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s323693586.787311
+e323693588.666812
+r1
+xProcessPCH
+x/var/folders/2s/2s7PmkMdHzuunr-Np2Q+G++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HackerNewsReader2_Prefix-djvgmiavwjbuhibgefzrufgnyipg/HackerNewsReader2_Prefix.pch.gch
+xHackerNewsReader2_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@39"Precompile HackerNewsReader2_Prefix.pch323693586#323693588#0(0"0(0#0#68"/Users/deon/Documents/HackerNewsReader2/HackerNewsReader2_Prefix.pch2522911376#1822"    cd /Users/deon/Documents/HackerNewsReader2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-generated-files.hmap -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-own-target-headers.hmap -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-all-target-headers.hmap -iquote /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-project-headers.hmap -F/Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos -I/Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos/include -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/DerivedSources/armv6 -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/DerivedSources -c /Users/deon/Documents/HackerNewsReader2/HackerNewsReader2_Prefix.pch -o /var/folders/2s/2s7PmkMdHzuunr-Np2Q+G++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HackerNewsReader2_Prefix-djvgmiavwjbuhibgefzrufgnyipg/HackerNewsReader2_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/2s/2s7PmkMdHzuunr-Np2Q+G++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HackerNewsReader2_Prefix-fmwebihpzgoatuetkzykejjfgjpy/HackerNewsReader2_Prefix.pch.gch HackerNewsReader2_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s323693586.789085
+e323693588.562251
+r1
+xProcessPCH
+x/var/folders/2s/2s7PmkMdHzuunr-Np2Q+G++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HackerNewsReader2_Prefix-fmwebihpzgoatuetkzykejjfgjpy/HackerNewsReader2_Prefix.pch.gch
+xHackerNewsReader2_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@39"Precompile HackerNewsReader2_Prefix.pch323693586#323693588#0(0"0(0#0#68"/Users/deon/Documents/HackerNewsReader2/HackerNewsReader2_Prefix.pch2522911376#1822"    cd /Users/deon/Documents/HackerNewsReader2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-generated-files.hmap -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-own-target-headers.hmap -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-all-target-headers.hmap -iquote /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-project-headers.hmap -F/Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos -I/Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos/include -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/DerivedSources/armv7 -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/DerivedSources -c /Users/deon/Documents/HackerNewsReader2/HackerNewsReader2_Prefix.pch -o /var/folders/2s/2s7PmkMdHzuunr-Np2Q+G++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HackerNewsReader2_Prefix-fmwebihpzgoatuetkzykejjfgjpy/HackerNewsReader2_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/2s/2s7PmkMdHzuunr-Np2Q+G++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HackerNewsReader2_Prefix-hdfchgsmjjlvqcagqremhbmhyydu/HackerNewsReader2_Prefix.pch.gch HackerNewsReader2_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s323693623.169649
+e323693624.786990
+r1
+xProcessPCH
+x/var/folders/2s/2s7PmkMdHzuunr-Np2Q+G++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HackerNewsReader2_Prefix-hdfchgsmjjlvqcagqremhbmhyydu/HackerNewsReader2_Prefix.pch.gch
+xHackerNewsReader2_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@39"Precompile HackerNewsReader2_Prefix.pch323693623#323693624#0(0"0(0#0#68"/Users/deon/Documents/HackerNewsReader2/HackerNewsReader2_Prefix.pch2522911376#1822"    cd /Users/deon/Documents/HackerNewsReader2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-generated-files.hmap -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-own-target-headers.hmap -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-all-target-headers.hmap -iquote /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2-project-headers.hmap -F/Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos -I/Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos/include -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/DerivedSources/armv7 -I/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/DerivedSources -c /Users/deon/Documents/HackerNewsReader2/HackerNewsReader2_Prefix.pch -o /var/folders/2s/2s7PmkMdHzuunr-Np2Q+G++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HackerNewsReader2_Prefix-hdfchgsmjjlvqcagqremhbmhyydu/HackerNewsReader2_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/deon/Library/MobileDevice/Provisioning Profiles/62A5273D-E521-44D3-95F3-1C7DB746EC3A.mobileprovision" /Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos/HackerNewsReader2.app/embedded.mobileprovision
+s323693592.875570
+e323693592.931173
+r1
+xProcessProductPackaging
+x/Users/deon/Library/MobileDevice/Provisioning Profiles/62A5273D-E521-44D3-95F3-1C7DB746EC3A.mobileprovision
+x/Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos/HackerNewsReader2.app/embedded.mobileprovision
+lSLF07#2@201"ProcessProductPackaging "/Users/deon/Library/MobileDevice/Provisioning Profiles/62A5273D-E521-44D3-95F3-1C7DB746EC3A.mobileprovision" build/Debug-iphoneos/HackerNewsReader2.app/embedded.mobileprovision323693592#323693592#0(0"0(0#0#107"/Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos/HackerNewsReader2.app/embedded.mobileprovision2522911376#434"    cd /Users/deon/Documents/HackerNewsReader2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/deon/Library/MobileDevice/Provisioning Profiles/62A5273D-E521-44D3-95F3-1C7DB746EC3A.mobileprovision" -o /Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos/HackerNewsReader2.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2.xcent
+s323693629.238143
+e323693629.267952
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist
+x/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2.xcent
+lSLF07#2@205"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2.xcent323693629#323693629#0(0"0(0#0#132"/Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2.xcent2522911376#464"    cd /Users/deon/Documents/HackerNewsReader2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist -entitlements -format xml -o /Users/deon/Documents/HackerNewsReader2/build/HackerNewsReader2.build/Debug-iphoneos/HackerNewsReader2.build/HackerNewsReader2.xcent0#
+
+CTouch /Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos/HackerNewsReader2.app
+s323693629.233264
+e323693629.237976
+r1
+xTouch
+x/Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos/HackerNewsReader2.app
+lSLF07#2@88"Touch /Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos/HackerNewsReader2.app323693629#323693629#0(0"0(0#0#0"2522911376#276"    cd /Users/deon/Documents/HackerNewsReader2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/deon/Documents/HackerNewsReader2/build/Debug-iphoneos/HackerNewsReader2.app0#
+

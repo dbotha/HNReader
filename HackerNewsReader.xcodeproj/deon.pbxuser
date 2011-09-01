@@ -1,0 +1,200 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* HackerNewsReader2AppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {762, 676}}";
+			sepNavSelRange = "{314, 0}";
+			sepNavVisRange = "{0, 726}";
+		};
+	};
+	1D3623250D0F684500981E51 /* HackerNewsReader2AppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1512, 2337}}";
+			sepNavSelRange = "{152, 0}";
+			sepNavVisRange = "{0, 1237}";
+			sepNavWindowFrame = "{{0, 4}, {1280, 998}}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* HackerNewsReader2 */ = {
+		activeExec = 0;
+		executables = (
+			3D1A1A38134B296E0024DE97 /* HackerNewsReader2 */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 3D1A1A38134B296E0024DE97 /* HackerNewsReader2 */;
+		activeSDKPreference = iphoneos4.3;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* HackerNewsReader2 */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* HackerNewsReader2 */,
+		);
+		codeSenseManager = 3D1A1A45134B29800024DE97 /* Code sense */;
+		executables = (
+			3D1A1A38134B296E0024DE97 /* HackerNewsReader2 */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					579,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 323693165;
+			PBXWorkspaceStateSaveDate = 323693165;
+		};
+		perUserProjectItems = {
+			3D1A1A3C134B29800024DE97 /* PBXTextBookmark */ = 3D1A1A3C134B29800024DE97 /* PBXTextBookmark */;
+			3D1A1A98134B2AF30024DE97 /* PBXTextBookmark */ = 3D1A1A98134B2AF30024DE97 /* PBXTextBookmark */;
+			3D1A1AA9134B2B3E0024DE97 /* PBXTextBookmark */ = 3D1A1AA9134B2B3E0024DE97 /* PBXTextBookmark */;
+			3D1A1AE0134B2BE60024DE97 /* PBXTextBookmark */ = 3D1A1AE0134B2BE60024DE97 /* PBXTextBookmark */;
+			3D1A1AE1134B2BE60024DE97 /* PBXTextBookmark */ = 3D1A1AE1134B2BE60024DE97 /* PBXTextBookmark */;
+			3D1A1AEB134B2C940024DE97 /* PBXTextBookmark */ = 3D1A1AEB134B2C940024DE97 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 3D1A1A44134B29800024DE97 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	32CA4F630368D1EE00C91783 /* HackerNewsReader2_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1072, 684}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 203}";
+		};
+	};
+	3D1A1A38134B296E0024DE97 /* HackerNewsReader2 */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = HackerNewsReader2;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	3D1A1A3C134B29800024DE97 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* HackerNewsReader2_Prefix.pch */;
+		name = "HackerNewsReader2_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 203;
+		vrLoc = 0;
+	};
+	3D1A1A44134B29800024DE97 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	3D1A1A45134B29800024DE97 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	3D1A1A7B134B2AB00024DE97 /* HackerNews.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {652, 361}}";
+			sepNavSelRange = "{176, 0}";
+			sepNavVisRange = "{51, 228}";
+			sepNavWindowFrame = "{{0, 4}, {1280, 998}}";
+		};
+	};
+	3D1A1A7C134B2AB00024DE97 /* HackerNews.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {757, 676}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 265}";
+		};
+	};
+	3D1A1A98134B2AF30024DE97 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* HackerNewsReader2AppDelegate.h */;
+		name = "HackerNewsReader2AppDelegate.h: 14";
+		rLen = 0;
+		rLoc = 314;
+		rType = 0;
+		vrLen = 726;
+		vrLoc = 0;
+	};
+	3D1A1AA9134B2B3E0024DE97 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* HackerNewsReader2AppDelegate.m */;
+		name = "HackerNewsReader2AppDelegate.m: 9";
+		rLen = 0;
+		rLoc = 152;
+		rType = 0;
+		vrLen = 1237;
+		vrLoc = 0;
+	};
+	3D1A1AE0134B2BE60024DE97 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3D1A1A7C134B2AB00024DE97 /* HackerNews.m */;
+		name = "HackerNews.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 265;
+		vrLoc = 0;
+	};
+	3D1A1AE1134B2BE60024DE97 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3D1A1A7B134B2AB00024DE97 /* HackerNews.h */;
+		name = "HackerNews.h: 13";
+		rLen = 0;
+		rLoc = 215;
+		rType = 0;
+		vrLen = 442;
+		vrLoc = 0;
+	};
+	3D1A1AEB134B2C940024DE97 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3D1A1A7B134B2AB00024DE97 /* HackerNews.h */;
+		name = "HackerNews.h: 10";
+		rLen = 0;
+		rLoc = 176;
+		rType = 0;
+		vrLen = 412;
+		vrLoc = 0;
+	};
+}
